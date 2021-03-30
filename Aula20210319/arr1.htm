@@ -1,0 +1,38 @@
+<html>
+
+<head>
+<title>Exemplos com ARRAYS</title>
+</head>
+
+<body>
+<script language="javascript">
+    var i, a, b, c;
+    a = new Array();
+
+    a[5] = 7;
+    for (i = 0; i < a.length; ++i)
+        document.write(a[i] + "<br>");
+    document.write("----------------------------<br>");
+
+    a[2] = 0;
+
+    a[7] = 10;
+    for (i = 0; i < a.length; ++i)
+        document.write(a[i] + "<br>");
+    document.write("----------------------------<br>");
+
+    b = new Array(5);
+    for (i = 0; i < b.length; ++i)
+        b[i] = 10;
+    for (i = 0; i < b.length; ++i)
+        document.write(b[i] + "<br>");
+
+    c = new Array("Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab");
+    document.write(c[2] + "<br>");
+
+    
+</script>
+
+</body>
+
+</html>

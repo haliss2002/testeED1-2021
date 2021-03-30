@@ -1,0 +1,37 @@
+<html>
+
+<head>
+<title>Exemplos com ARRAYS</title>
+</head>
+
+<body>
+
+<script language="javascript">
+    var meuArray, col, lin;
+    meuArray = new Array(3);
+
+    for (col = 0; col < 3; ++col)
+        meuArray[col] = new Array(2);
+    
+    meuArray[0][0] = "1";
+    meuArray[0][1] = "2";
+    meuArray[1][0] = "3";
+    meuArray[1][1] = "4";
+    meuArray[2][0] = "5";
+    meuArray[2][1] = "6";
+    
+    document.write("<table border='1'>");
+    for (l = 0; l < 2; l++) {
+        document.write("<tr>");
+        for (c = 0; c < 3; c++) {
+            document.write("<td>" + meuArray[c][l] + "</td>");
+        }
+        document.write("</tr>");
+    }
+    document.write("</table>");
+   
+</script>
+
+</body>
+
+</html>
